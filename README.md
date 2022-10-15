@@ -4,7 +4,7 @@ Utilizando a ferramenta vagrant, para a implementação de um ambiente de teste 
 - Maquina com sistema operacional linux com 1GB RAM cada.
 - Uma placa de rede no modo *bridge* em cada maquina, para acesso externo
 - 1 CPUS em cada maquina
-#### Cenário
+#### Cenário 
 ![cenario](./img/cen%C3%A1rio.png)
 ##### Provider
 - Virtual Box
