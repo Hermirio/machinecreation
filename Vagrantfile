@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     (1..3).each do |num|
         config.vm.define "nodes_#{num}" do |nodes|
             nodes.vm.box = "hashicorp/bionic64"
-            nodes.vm.hostname = "nodes_#{num}"
+            nodes.vm.hostname = "nodes#{num}"
             nodes.vm.network "public_network", bridge: "wlp3s0", ip: "192.168.10.3#{num}"
             nodes.vm.provider "virtualbox" do |vb|
                 vb.name = "nodes_#{num}"
